@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#-#",
+		"-#-",
+		"#-#"
+	],
+	"key": {
+		"-": {"item": "minecraft:coal"},
+		"#": {"item": "minecraft:stone"}
+	},
+	"result": {
+		"id": "minecraft:coal_ore"
+	},
+	"group": "ore"
+}

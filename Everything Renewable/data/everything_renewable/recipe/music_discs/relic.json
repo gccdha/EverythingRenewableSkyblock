@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#",
+		"-"
+	],
+	"key": {
+		"#": {"tag": "minecraft:music_discs"},
+		"-": {"item": "minecraft:music_disc_relic"}
+	},
+	"result": {
+		"id": "minecraft:music_disc_relic"
+	},
+	"group": "dupe_music_discs"
+}

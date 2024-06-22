@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#c#",
+		"C#C",
+		"#c#"
+	],
+	"key": {
+		"c": {"item": "minecraft:raw_copper"},
+		"C": {"item": "minecraft:raw_copper_block"},
+		"#": {"item": "minecraft:stone"}
+	},
+	"result": {
+		"id": "minecraft:copper_ore"
+	},
+	"group": "ore"
+}

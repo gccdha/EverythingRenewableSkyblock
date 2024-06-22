@@ -1,0 +1,11 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{"item": "minecraft:mojang_banner_pattern"},
+		{"item": "minecraft:paper"}
+	],
+	"result": {
+		"id": "minecraft:mojang_banner_pattern"
+	},
+	"group": "dupe_banner_patterns"
+}

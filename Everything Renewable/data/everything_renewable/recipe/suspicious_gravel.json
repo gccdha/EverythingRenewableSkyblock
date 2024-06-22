@@ -1,0 +1,12 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{"item": "minecraft:suspicious_gravel"},
+		{"item": "minecraft:gravel"}
+	],
+	"result": {
+		"id": "minecraft:suspicious_gravel",
+		"count": 2
+	},
+	"group": "suspicious"
+}

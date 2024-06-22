@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"dGd",
+		"GaG",
+		"dGd"
+	],
+	"key": {
+		"d": {"item": "minecraft:diamond"},
+		"G": {"item": "minecraft:gold_block"},
+		"a": {"item": "minecraft:golden_apple"}
+	},
+	"result": {
+		"id": "minecraft:enchanted_golden_apple"
+	}
+}
