@@ -1,0 +1,54 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"everything_renewable:netherrack"
+		]
+	},
+	"criteria": {
+		"has_nether_wart_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:nether_wart_block"
+					}
+				]
+			}
+		},
+		"has_deepslate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:deepslate"
+					}
+				]
+			}
+		},
+		"has_the_result": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherrack"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "everything_renewable:netherrack"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_nether_wart_block",
+			"has_deepslate",
+			"has_the_result",
+			"has_the_recipe"
+		]
+	]
+}

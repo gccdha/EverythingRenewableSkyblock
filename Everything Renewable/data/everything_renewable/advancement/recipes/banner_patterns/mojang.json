@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"everything_renewable:banner_patterns/mojang"
+		]
+	},
+	"criteria": {
+		"has_the_result": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:mojang_banner_pattern"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "everything_renewable:banner_patterns/mojang"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_the_result",
+			"has_the_recipe"
+		]
+	]
+}

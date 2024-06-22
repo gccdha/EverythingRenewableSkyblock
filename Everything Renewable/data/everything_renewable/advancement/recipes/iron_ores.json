@@ -1,0 +1,62 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"everything_renewable:iron_ore",
+			"everything_renewable:deepslate_iron_ore"
+		]
+	},
+	"criteria": {
+		"has_raw_iron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:raw_iron"
+					}
+				]
+			}
+		},
+		"has_the_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_ore"
+					}
+				]
+			}
+		},
+		"has_the_deepslate_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:deepslate_iron_ore"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "everything_renewable:iron_ore"
+			}
+		},
+		"has_the_deepslate_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "everything_renewable:deepslate_iron_ore"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_raw_iron",
+			"has_the_ore",
+			"has_the_deepslate_ore",
+			"has_the_recipe",
+			"has_the_deepslate_recipe"
+		]
+	]
+}

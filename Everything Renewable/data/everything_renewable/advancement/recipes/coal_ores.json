@@ -1,0 +1,62 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"everything_renewable:coal_ore",
+			"everything_renewable:deepslate_coal_ore"
+		]
+	},
+	"criteria": {
+		"has_coal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:coal"
+					}
+				]
+			}
+		},
+		"has_the_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:coal_ore"
+					}
+				]
+			}
+		},
+		"has_the_deepslate_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:deepslate_coal_ore"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "everything_renewable:coal_ore"
+			}
+		},
+		"has_the_deepslate_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "everything_renewable:deepslate_coal_ore"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_coal",
+			"has_the_ore",
+			"has_the_deepslate_ore",
+			"has_the_recipe",
+			"has_the_deepslate_recipe"
+		]
+	]
+}

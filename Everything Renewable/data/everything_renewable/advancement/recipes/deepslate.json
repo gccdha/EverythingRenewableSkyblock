@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"everything_renewable:deepslate"
+		]
+	},
+	"criteria": {
+		"has_smooth_stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:smooth_stone"
+					}
+				]
+			}
+		},
+		"has_the_result": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:deepslate"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "everything_renewable:deepslate"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_smooth_stone",
+			"has_the_result",
+			"has_the_recipe"
+		]
+	]
+}

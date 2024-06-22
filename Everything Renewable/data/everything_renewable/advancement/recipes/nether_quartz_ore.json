@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"everything_renewable:nether_quartz_ore"
+		]
+	},
+	"criteria": {
+		"has_quartz": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:quartz"
+					}
+				]
+			}
+		},
+		"has_the_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:nether_quartz_ore"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "everything_renewable:nether_quartz_ore"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_quartz",
+			"has_the_ore",
+			"has_the_recipe"
+		]
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"parent": "everything_renewable:dupe_recipes/root",
+	"rewards": {
+		"loot": [
+			"everything_renewable:mojang_banner_pattern"
+		],
+		"function": "everything_renewable:clear_dupe_advancements"
+	},
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "everything_renewable:banner_patterns/mojang"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"craft"
+		]
+	]
+}

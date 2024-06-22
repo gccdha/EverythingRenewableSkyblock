@@ -1,0 +1,65 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"everything_renewable:dead_bush"
+		]
+	},
+	"criteria": {
+		"has_lilac": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:lilac"
+					}
+				]
+			}
+		},
+		"has_peony": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:peony"
+					}
+				]
+			}
+		},
+		"has_rose_bush": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:rose_bush"
+					}
+				]
+			}
+		},
+		"has_the_result": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:dead_bush"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "everything_renewable:dead_bush"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_lilac",
+			"has_peony",
+			"has_rose_bush",
+			"has_the_result",
+			"has_the_recipe"
+		]
+	]
+}

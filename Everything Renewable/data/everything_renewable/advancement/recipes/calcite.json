@@ -1,0 +1,54 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"everything_renewable:calcite"
+		]
+	},
+	"criteria": {
+		"has_dripstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:dripstone_block"
+					}
+				]
+			}
+		},
+		"has_quartz": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:quartz"
+					}
+				]
+			}
+		},
+		"has_the_result": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:calcite"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "everything_renewable:calcite"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_dripstone",
+			"has_quartz",
+			"has_the_result",
+			"has_the_recipe"
+		]
+	]
+}

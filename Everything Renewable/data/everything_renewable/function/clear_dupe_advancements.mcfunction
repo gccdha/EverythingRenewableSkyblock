@@ -1,0 +1,1 @@
+advancement revoke @a from everything_renewable:dupe_recipes/root

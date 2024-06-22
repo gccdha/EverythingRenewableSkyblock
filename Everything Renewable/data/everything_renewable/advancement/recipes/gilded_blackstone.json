@@ -1,0 +1,54 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"everything_renewable:gilded_blackstone"
+		]
+	},
+	"criteria": {
+		"has_gold_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:gold_nugget"
+					}
+				]
+			}
+		},
+		"has_blackstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:blackstone"
+					}
+				]
+			}
+		},
+		"has_the_result": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:gilded_blackstone"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "everything_renewable:gilded_blackstone"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_gold_nugget",
+			"has_blackstone",
+			"has_the_result",
+			"has_the_recipe"
+		]
+	]
+}
