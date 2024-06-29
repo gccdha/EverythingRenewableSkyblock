@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:gift",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:torchflower_seeds",
+					"weight": 47
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pitcher_pod",
+					"weight": 47
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "everything_renewable:pottery_sherd_by_biome",
+					"weight": 2
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "minecraft:gameplay/sniffer_digging"
+}

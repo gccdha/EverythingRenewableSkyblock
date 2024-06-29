@@ -6,13 +6,11 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:clay",
-					"weight": 1
+					"name": "minecraft:clay"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "everything_renewable:pottery_sherd_by_biome",
-					"weight": 2
+					"value": "everything_renewable:pottery_sherd_by_biome"
 				}
 			],
 			"rolls": 1.0

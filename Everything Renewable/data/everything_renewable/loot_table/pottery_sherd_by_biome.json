@@ -73,22 +73,12 @@
 						{
 							"type": "minecraft:tag",
 							"name": "everything_renewable:any_biome_pottery_sherds",
-							"expand": true,
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.5
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"name": "minecraft:clay"
+							"expand": true
 						}
 					]
 				}
 			]
 		}
 	],
-	"random_sequence": "minecraft:gameplay/hero_of_the_village/mason_gift"
+	"random_sequence": "everything_renewable:pottery_sherds_by_biome"
 }
