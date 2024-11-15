@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blackstone"
+    },
+    "X": {
+      "tag": "minecraft:gold_ores"
+    }
+  },
+  "result": {
+    "item": "minecraft:gilded_blackstone"
+  }
+}

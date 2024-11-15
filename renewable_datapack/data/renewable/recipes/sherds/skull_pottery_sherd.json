@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "sherd",
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
+    },
+    "C": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "S": {
+      "item": "minecraft:skull_pottery_sherd"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:skull_pottery_sherd"
+  },
+  "show_notification": true
+}

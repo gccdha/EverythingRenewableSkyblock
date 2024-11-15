@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:guardian] at @s if entity @e[type=minecraft:lightning_bolt,distance=..5] run summon minecraft:elder_guardian
+execute as @e[type=minecraft:guardian] at @s if entity @e[type=minecraft:lightning_bolt,distance=..5] run tp @s 0 -999 0

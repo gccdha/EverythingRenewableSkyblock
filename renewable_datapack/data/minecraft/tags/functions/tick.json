@@ -1,0 +1,7 @@
+{
+  "values": [
+    "renewable:convert_echo_shard",
+    "renewable:convert_guardian",
+    "renewable:entity_loot_changes"
+  ]
+}

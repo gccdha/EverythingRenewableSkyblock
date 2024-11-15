@@ -1,0 +1,23 @@
+{
+  "pack": {
+    "pack_format": 16,
+    "supported_formats": {
+      "min_inclusive": 16,
+      "max_inclusive": 32
+    },
+    "description": [
+      {
+        "text": "Renewable",
+        "color": "dark_purple"
+      },
+      {
+        "text": " by DJChaos ",
+        "color": "white"
+      },
+      {
+        "text": "v1.0.4",
+        "color": "green"
+      }
+    ]
+  }
+}

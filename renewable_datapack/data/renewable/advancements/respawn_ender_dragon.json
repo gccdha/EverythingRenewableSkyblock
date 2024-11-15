@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "summoned_dragon": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ender_dragon"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "summoned_dragon"
+    ]
+  ],
+  "rewards": {
+    "function": "renewable:respawn_ender_dragon"
+  },
+  "sends_telemetry_event": true
+}

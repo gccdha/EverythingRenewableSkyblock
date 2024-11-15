@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+            "tag": "minecraft:decorated_pot_sherds"
+          }
+        ]
+      }
+    }
+  }
+  },
+  "requirements": [
+    [
+      "has_sherd"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "renewable:sherds/angler_pottery_sherd",
+      "renewable:sherds/archer_pottery_sherd",
+      "renewable:sherds/arms_up_pottery_sherd",
+      "renewable:sherds/blade_pottery_sherd",
+      "renewable:sherds/brewer_pottery_sherd",
+      "renewable:sherds/burn_pottery_sherd",
+      "renewable:sherds/danger_pottery_sherd",
+      "renewable:sherds/explorer_pottery_sherd",
+      "renewable:sherds/friend_pottery_sherd",
+      "renewable:sherds/heart_pottery_sherd",
+      "renewable:sherds/heartbreak_pottery_sherd",
+      "renewable:sherds/howl_pottery_sherd",
+      "renewable:sherds/miner_pottery_sherd",
+      "renewable:sherds/mourner_pottery_sherd",
+      "renewable:sherds/plenty_pottery_sherd",
+      "renewable:sherds/prize_pottery_sherd",
+      "renewable:sherds/sheaf_pottery_sherd",
+      "renewable:sherds/shelter_pottery_sherd",
+      "renewable:sherds/skull_pottery_sherd",
+      "renewable:sherds/snort_pottery_sherd"
+    ]
+  },
+  "sends_telemetry_event": false
+}
