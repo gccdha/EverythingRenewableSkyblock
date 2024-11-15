@@ -1,0 +1,6 @@
+Vanilla Tweaks Crafting Tweaks
+Version: 1.21
+Packs:
+	craftable coral blocks 3x3
+	craftable horse armor
+	sandstone dyeing
